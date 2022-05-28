@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: auto;
+}
+
+/*only for smartphones in portrait mode */
+@media (min-width: 600px) and (max-width: 1199px) {
+    header {
+        background-color: lightgray;
+        padding: 20px;
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        
+        height: auto;
+        position: relative;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(245, 242, 242);
+        width: auto;
+        height: auto;
+        padding: 25px;
+        font-size: 30px;
+    }
+
+    .spimages {
+        height: 400px;
+        width: auto;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        padding: 20px;
+        font-size: 40px;
+        margin: 10px 0px 10px 0px;
+        background-color: lightblue;
+        border: 8px solid black;
+        border-radius: 10px;
+    }
+}
+
+/* only for smartphones in landscape mode*/
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+
+}
+
+/* iPad in portrait and landscape mode */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+
+}
+
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {
+
+}
