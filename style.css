@@ -22,14 +22,7 @@ body {
     width: auto;
 }
 
-@font-face {
-    font-family: FontName;
-    src: url('Lovelo-Black.eot');
-    src: url('Lovelo-Black.eot') format('embedded-opentype'),
-    url('Lovelo-LineBold.woff2') format('woff2'), 
-    url('Lovelo-LineBold.woff') format('woff'),
-    url('Lovelo-LineLight.ttf') format('truetype');
-   }
+
 
 /*only for smartphones in portrait mode */
 @media (min-width: 600px) and (max-width: 1199px) {
@@ -37,7 +30,7 @@ body {
         background-color: lightgray;
         padding: 20px;
         font-size: 40px;
-        font-family: 'Fontfabric';
+        font-family: Georgia, 'Times New Roman', Times, serif;
         height: auto;
         position: relative;
     }
@@ -59,6 +52,7 @@ body {
         width: auto;
         border: 5px solid black;
         border-radius: 10px;
+        margin: 15px 0px 15px 0px
     }
 
     button {
