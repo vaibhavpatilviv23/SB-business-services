@@ -22,13 +22,22 @@ body {
     width: auto;
 }
 
+@font-face {
+    font-family: FontName;
+    src: url('Lovelo-Black.eot');
+    src: url('Lovelo-Black.eot') format('embedded-opentype'),
+    url('Lovelo-LineBold.woff2') format('woff2'), 
+    url('Lovelo-LineBold.woff') format('woff'),
+    url('Lovelo-LineLight.ttf') format('truetype');
+   }
+
 /*only for smartphones in portrait mode */
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
         background-color: lightgray;
         padding: 20px;
         font-size: 40px;
-        font-family:  Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Fontfabric';
         height: auto;
         position: relative;
     }
@@ -61,6 +70,25 @@ body {
         background-color: lightblue;
         border: 8px solid black;
         border-radius: 10px;
+    }
+
+    .founderimg{
+        height: 400px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: black solid 6px;
+        border-radius: 12px;
+    }
+
+    .lasts {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        background-color: lightgray;
+        padding: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 22px;
     }
 }
 
