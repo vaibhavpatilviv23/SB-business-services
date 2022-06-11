@@ -5,17 +5,19 @@
 a {
     text-decoration: none;
     color: inherit;
-    width: fit-content;
+    width: min-content;
 }
 
 a:hover {
     cursor: pointer;
     text-decoration: underline;
+    
 }
 
 a:visited {
     text-decoration: none;
     color: inherit;
+    
 }
 
 body {
@@ -151,6 +153,11 @@ button:hover {
         line-height: 30px;
         padding: 12px;
     }
+
+    .founderimg {
+        height: 300px;
+        width: auto;
+    }
 }
 
 /* iPad in portrait and landscape mode */
@@ -215,6 +222,13 @@ button:hover {
         background-color: lightgray;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+
+    .founderimg {
+        height: 250px;
+        width: auto;
+        border: 5px solid black;
+        border-radius: 8px;
+    }
 }
 
 /*Large devices only (laptops and deskops) */
@@ -259,6 +273,13 @@ button:hover {
         border-radius: 10px;
     }
 
+    .founderimg {
+        height: 250px;
+        width: auto;
+        border: 5px solid black;
+        border-radius: 8px;
+    }
+
     button {
         height: auto;
         width: auto;
@@ -275,5 +296,9 @@ button:hover {
         line-height: 28px;
         background-color: lightgray;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .lasts {
+        margin-bottom: 50px;
     }
 }
