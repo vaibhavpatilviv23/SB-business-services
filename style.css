@@ -32,7 +32,7 @@ button:hover {
 /*only for smartphones in portrait mode */
 @media (min-width: 600px) and (max-width: 1199px) {
     header {
-        background-color: lightgray;
+        background-color: rgb(211, 211, 211);
         padding: 20px;
         font-size: 40px;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -74,7 +74,7 @@ button:hover {
         width: auto;
         border: 5px solid black;
         border-radius: 10px;
-        margin: 15px 0px 15px 0px
+        margin: 15px 0px 15px 0px;
     }
 
     button {
@@ -136,6 +136,7 @@ button:hover {
         width: auto;
         border: 5px solid black;
         border-radius: 10px;
+        margin-bottom: 15px;
     }
 
     button {
@@ -203,6 +204,7 @@ button:hover {
         width: auto;
         border: 5px solid black;
         border-radius: 10px;
+        margin-bottom: 15px;
     }
 
     button {
@@ -213,7 +215,7 @@ button:hover {
         margin: 10px 0px 10px 0px;
         background-color: lightblue;
         border: 2px solid black;
-        border-radius: 6px;
+        border-radius: 5px;
     }
 
     footer {
@@ -271,6 +273,7 @@ button:hover {
         width: auto;
         border: 5px solid black;
         border-radius: 10px;
+        margin-bottom: 15px;
     }
 
     .founderimg {
@@ -288,7 +291,7 @@ button:hover {
         margin: 10px 0px 10px 0px;
         background-color: lightblue;
         border: 2px solid black;
-        border-radius: 6px;
+        border-radius: 5px;
     }
 
     footer {
